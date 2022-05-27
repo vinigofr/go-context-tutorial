@@ -10,6 +10,7 @@ func enrichContext(ctx context.Context) context.Context {
 }
 
 func doSomethingCool(ctx context.Context) {
+	// Caso a chave não exista, retornatá <nil>
 	apiKey := ctx.Value("api-key")
 	fmt.Println(apiKey)
 }
