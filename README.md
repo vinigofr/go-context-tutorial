@@ -7,6 +7,7 @@
 
 
  # O que são contextos?
+- De grosso modo, são nossos amigos. Através deles, podemos evitar gastos computacionais desnecessários.
  - Podemos imaginar contextos como uma parcela de informação que será enviada entre diferentes camadas da sua aplicação
  - Essa parcela de informação é criada na borda da aplicação, normalmente quando se recebe uma requisição API
  - Essa parcela de informação é entregue para a camada de serviço ou para a camada de armazenamento
